@@ -13,10 +13,9 @@ const About = () => {
       exit="exit"
     >
       <h5 className="my-2 font-medium dark:bg-dark-200 p-4 pt-6 rounded-lg">
-        I am currently pursuing my bachelors of technology in Computer Science
+        I am currently pursuing my Bachelor of Technology in Computer Science
         Engineering and I am a passionate Tech Enthusiast. I am currently
-        working on Generative AI with a deeper understanding in NLP and Cloud
-        Computing.
+        working on Web Frameworks Like Nextjs, Vanilla, and more...
       </h5>
       <div
         className="p-4 mt-5 bg-gray-400 flex-grow dark:bg-dark-500"
