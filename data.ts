@@ -7,8 +7,15 @@ import { TbApi } from "react-icons/tb";
 import { FaSquareJs } from "react-icons/fa6";
 import { VscRobot } from "react-icons/vsc";
 import { BsCircleFill } from "react-icons/bs";
+import { BsDatabaseFillDown } from "react-icons/bs";
 
 export const skills: Skill[] = [
+  {
+    title: "Web Development",
+    about:
+      "I have Insightful experience in making Frontend within the web applications using <b> React </b>, <b>TailwindCSS</b>,<b>Next Js </b>,<b>Type Script</b> and <b>Angular</b>",
+    Icon: FaSquareJs,
+  },
   {
     title: "Data Science",
     about:
@@ -16,33 +23,28 @@ export const skills: Skill[] = [
     Icon: MdOutlineInsights,
   },
   {
-    title: "Data Analytics",
+    title: "Data Base Management",
     about:
-      "I have a good Experience in working with tools like <b>SpreadSheets</b> , <b>Tableau</b> and other Bussiness Intelligence tools",
-    Icon: DiGoogleAnalytics,
+      "I have good Experience  working with <b>MonogoDB</b>, <b>Microsoft SQL Server</b>, and <b>PostgreSQL</b>",
+    Icon: BsDatabaseFillDown,
   },
-  {
-    title: "Frontend Web Development",
-    about:
-      "I have an Insightful experience in making Frontend within the web applications using <b> React </b> , <b>TailwindCSS</b> and <b>Type Script</b>",
-    Icon: FaSquareJs,
-  },
+  
   {
     title: "API Development",
     about:
-      " I have developed Many Api's using Flask and Rest APIs, and I am comfortable in using </b> PostMan</b>",
+      " I have developed many APIs using Flask and Rest APIs, and I am comfortable in using </b> PostMan</b>",
     Icon: TbApi,
   },
   {
     title: " Generative Ai",
     about:
-      " Currently I am learning Gen Ai and i am comfortable with Natural language Processing and lang chain",
+      " Currently I am learning Gen AI and I am comfortable with Natural language Processing and language chain",
     Icon: VscRobot,
   },
   {
     title: "Programming",
     about:
-      " I have a great Experience working with <b>Python</b> , <b>Java</b> and <b> Java Script </b>",
+      " I have a great Experience working with <b>Python</b> , <b>Java</b>",
     Icon: RiComputerLine,
   },
 ];
@@ -110,6 +112,17 @@ export const tools: lang[] = [
 
 export const projects: Project[] = [
   {id:1,
+    name: "Doctors Point",
+    description:
+      "A Web Application Built Using Nextjs and Mongo DB, This Application Does Appointment Scheduling, slot Scheduling, Real-time Notification for the users over Appointments ",
+    image_path: "/images/doctorspoint.png",
+    deployedurl:
+      "Not Available",
+    giturl: "https://github.com/chetankumarpulipati/KeineArmut",
+    category: ["WEB"],
+    TechStack: ["Next JS ", "TypeScript", "mongoose","Oauth2 Client "],
+  },
+  {id:2,
     name: "Keine Armut",
     description:
       "An android application which caters in eradicasting poverty this project is developed under Google Solutionn Challenge",
@@ -120,7 +133,7 @@ export const projects: Project[] = [
     category: ["App", "DataScience"],
     TechStack: ["kotlin", "ML", "Api"],
   },
-  {id:2,
+  {id:3,
     name: "Credit Cruise",
     description:
       "A web Application which makes the loan approval process simple and fast. This project is developed under Hack Bangalore ",
@@ -130,7 +143,7 @@ export const projects: Project[] = [
     category: ["Web", "DataScience"],
     TechStack: ["React", "MongoDB", "Node js", "Api"],
   },
-  {id:3,
+  {id:4,
     name: "Loan Approval Api",
     description:
       "a machine learning model which predicts whether the application can proceeded or rejected",
@@ -140,7 +153,7 @@ export const projects: Project[] = [
     category: ["Api", "Python", "DataScience"],
     TechStack: ["Flask", "Python", "ML"],
   },
-  {id:4,
+  {id:5,
     name: "CV Information Reader",
     description:
       "The CV Information Extractor is a web application built using Flask designed to extract email addresses phone numbers and text content from uploaded files in PDF or DOCX formats. This project facilitates the extraction of valuable information from various types of documents aiding in tasks such as data mining document analysis and contact information retrieval.",
@@ -150,7 +163,7 @@ export const projects: Project[] = [
     category: ["Web", "Python"],
     TechStack: ["Html", "CSS", "Flask"],
   },
-  {id:5,
+  {id:6,
     name: "Global Land Surface Temperature",
     description:
       "We analysed the dataset climate changes on earth and the dataset is from kaggle.com. Since all the data in other datasets are not from the same date we removed rows upto 1855.",
@@ -164,11 +177,11 @@ export const projects: Project[] = [
       "Numpy",
       "Seaborn",
       "Matplotlib",
-      "datetime",
+      "DateTime",
       "Matplotlib",
     ],
   },
-  {id:6,
+  {id:7,
     name: "Calculator",
     description: "A Traditional Calculator developed using ",
     image_path: "/images/Calculator.png",
@@ -177,7 +190,7 @@ export const projects: Project[] = [
     category: ["Python"],
     TechStack: ["Python"],
   },
-  {id:7,
+  {id:8,
     name: "Software Automation Testing",
     description:
       "Testing The amazon application includes selenium and groovy test cases",
