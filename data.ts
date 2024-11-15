@@ -119,7 +119,7 @@ export const projects: Project[] = [
     deployedurl:
       "Not Available",
     giturl: "https://github.com/chetankumarpulipati/KeineArmut",
-    category: ["WEB"," "],
+    category: ["Web"],
     TechStack: ["Next JS ", "TypeScript", "mongoose","Oauth2 Client "],
   },
   {id:2,
